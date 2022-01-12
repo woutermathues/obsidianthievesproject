@@ -1,0 +1,127 @@
+body {
+
+background-color: black;    
+width: auto;
+height: auto;
+}
+
+/* mobile  */
+@media only screen and (min-width: 300px) {
+    img {
+      width: 50%;
+    }
+  }
+
+.img {
+text-align: center; 
+margin-left: auto;
+margin-right: auto;
+margin: auto;
+/* MAX WIDTH FOR MOBILE RESPONSIVE */
+max-width: 100%;
+padding: 100px; 
+} 
+
+@media only screen and (max-width: 300px) {
+    img {
+        width: 100%;
+    }
+}
+
+
+
+
+.welcome {
+
+text-align: center; 
+color: white;   
+font-family:'Roboto', sans-serif;
+font-weight: 300;
+font-size: 50px;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+}
+
+
+
+
+/* GENERATED WITH CSS ANIMATION GENERATOR */
+.img {
+    -webkit-animation: text-focus-in 3s ease-in both;
+	        animation: text-focus-in 3s ease-in both;
+}
+
+    @-webkit-keyframes text-focus-in {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      @keyframes text-focus-in {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+
+
+
+/* .welcome {
+    animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+
+
+} */
+
+
+.welcome {
+    -webkit-animation: text-focus-in 3s ease-in both;
+	        animation: text-focus-in 3s ease-in both;
+}
+
+    @-webkit-keyframes text-focus-in {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      @keyframes text-focus-in {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      
+
+
+
+
+

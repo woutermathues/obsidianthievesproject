@@ -1,0 +1,169 @@
+body {
+
+    background-color: #212121;
+    /* background-image: url(../OTsource/ot_img/transparant.png); */
+    background-position: 0px -100px;
+    /* width: 500px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center; */
+}
+
+/* Opmaak Titel */
+h1 {
+    color: white;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400px;
+    }
+    
+    /* Header 2 */
+    h2{
+        color: white;
+        font-family:'Roboto', sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    body {
+        /* background: #212121; */
+        padding: 50px 0;
+      }
+      
+      .nav {
+        font-family:'Roboto', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+      }
+      
+      .nav * {
+        box-sizing: border-box;
+        transition: all .35s ease;
+      }
+      
+      .nav li {
+        display: inline-block;
+        list-style: outside none none;
+        margin: .5em 1em;
+        padding: 0;
+      }
+      
+      .nav a {
+        padding: .5em .8em;
+        color: white;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      .nav a::before,
+      .nav a::after {
+        content: '';
+        height: 14px;
+        width: 14px;
+        position: absolute;
+        transition: all .35s ease;
+        opacity: 0;
+      }
+      
+      .nav a::before {
+        content: '';
+        right: 0;
+        top: 0;
+        border-top: 3px solid #3E8914;
+        border-right: 3px solid #2E640F;
+        transform: translate(-100%, 50%);
+      }
+      
+      .nav a:after {
+        content: '';
+        left: 0;
+        bottom: 0;
+        border-bottom: 3px solid #2E640F;
+        border-left: 3px solid #3E8914;
+        transform: translate(100%, -50%)
+      }
+      
+.nav a:hover:before,
+.nav a:hover:after{
+        transform: translate(0,0);
+        opacity: 1;
+      }
+      
+.nav a:hover {
+        color: #3DA35D;
+      }
+    
+      /* OPMAAK TEAM BORDERS */
+
+.teams{
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding:50px;
+    
+}
+
+.leagueoflegends{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.hearthstone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img{
+    border-radius: 25px;
+    overflow: hidden;
+    border: 3px solid white;
+    width: auto;
+    
+}
+
+.img {
+    opacity: 0.5;
+  }
+  
+.img:hover {
+    opacity: 1.0;
+  }
+
+  .discordlogo {
+    position: absolute;
+    left: 40px;
+    bottom: 0px;
+
+}
+
+.facebooklogo {
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
+
+
+}
+
+
+.twitterlogo {
+    position: absolute;
+    left: 120px;
+    bottom: 0px;
+
+
+}
+    
