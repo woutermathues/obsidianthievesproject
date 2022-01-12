@@ -1,7 +1,7 @@
 
 /* BODY */
 body {
-    background-image: url(./ot_img/transparant.png);
+    background-image: url(/ot_img/transparant.png);
     background-color: #212121;
     background-position: 0px -100px;
     background-size: cover;
